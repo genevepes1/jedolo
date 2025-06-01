@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recherche de Numéro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Rechercher un Numéro</h1>
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Entrez le numéro à rechercher...">
+            <button onclick="performSearch()">Rechercher</button>
+        </div>
+        <div id="result">
+            </div>
+        <div id="loadingMessage" style="display: none;">
+            Chargement des données...
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
