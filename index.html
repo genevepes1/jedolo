@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vérification Jedolo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo-container">
+            <span class="logo-icon">🔍</span>
+            <span class="logo-text">Wolowos</span>
+        </div>
+
+        <h1>Tapez un numéro et vérifiez s'il vend le piment sur Jedolo.</h1>
+        
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Entrez le numéro à rechercher...">
+            <button onclick="performSearch()">Rechercher</button>
+        </div>
+        
+        <div id="result">
+            </div>
+
+        <button id="viewAllDataButton">Cliquer ici pour voir les données totales</button>
+        <div id="allDataContainer">
+            <pre id="allDataDisplay" style="display:none;"></pre>
+        </div>
+        
+        <div id="loadingMessage" style="display: none;">
+            Chargement des données...
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
